@@ -1,13 +1,13 @@
 export const config = {
   "dev": {
-    "username": process.env.POSTGRESS_USERNAME,
-    "password": process.env.POSTGRESS_PASSWORD,
-    "database": process.env.POSTGRESS_DB,
-    "host": process.env.POSTGRESS_HOST,
-    "dialect": "postgres",
+    "username": process.env.DB_USERNAME,
+    "password": process.env.DB_PASSWORD,
+    "database": process.env.DB_NAME,
+    "host": process.env.DB_HOST,
+    "dialect": process.env.DB_DIALECT,
     "aws_reigion": process.env.AWS_REGION,
     "aws_profile": process.env.AWS_PROFILE,
-    "aws_media_bucket": process.env.AWS_BUCKET
+    "aws_media_bucket": process.env.AWS_MEDIA_BUCKET
   },
   "prod": {
     "username": "",
@@ -19,5 +19,4 @@ export const config = {
   "jwt": {
     "secret": process.env.JWT_SECRET
   }
-
 }
