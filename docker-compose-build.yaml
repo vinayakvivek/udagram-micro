@@ -1,0 +1,18 @@
+version: "3"
+services: 
+    reverseproxy:
+        build:
+            context: ./reverse-proxy
+        image: vinayakvivekk/udacity-reverse-proxy
+    backend_user:
+        build:
+            context: ./user-restapi
+        image: vinayakvivekk/udacity-user-restapi
+    backend_feed:
+        build:
+            context: ./feed-restapi  
+        image: vinayakvivekk/udacity-feed-restapi
+    frontend:
+        build:
+            context: ./frontend  
+        image: vinayakvivekk/udacity-frontend
