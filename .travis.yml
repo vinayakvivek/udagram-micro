@@ -1,0 +1,7 @@
+language: minimal
+
+services: docker
+
+install:
+    - echo `hello udagram`
+    
