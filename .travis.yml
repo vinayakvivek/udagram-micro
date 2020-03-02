@@ -16,4 +16,4 @@ before_install:
     - kubectl version --client
 
 install:
-    - echo `hello udagram`
+    - docker-compose -f docker-compose-build.yaml build --parallel
