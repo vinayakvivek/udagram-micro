@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+  namespace: default
+data:
+  DB_NAME: "udagramdev"
+  DB_HOST: "udagramdev.cghofb882dlf.us-east-1.rds.amazonaws.com"
+  DB_DIALECT: "postgres"
+  AWS_REGION: "us-east-1"
+  AWS_PROFILE: "default"
+  AWS_MEDIA_BUCKET: "udagram-media-vin"
+  JWT_SECRET: "sdfkjgherogijrgp"
+  

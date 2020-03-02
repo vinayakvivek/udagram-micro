@@ -1,0 +1,5 @@
+*-kubeconfig
+*.tar.gz
+*.tfstate
+.terraform
+
