@@ -16,8 +16,8 @@ before_install:
     - kubectl version --client
 
 install:
-    - docker-compose -f docker-compose-build.yaml build --parallel
-    - echo "$DOCKER_USERNAME"
+    # - docker-compose -f docker-compose-build.yaml build --parallel
+    - echo $DOCKER_USERNAME
 
 deploy:
     provider: script
