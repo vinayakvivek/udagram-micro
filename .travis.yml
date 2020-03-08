@@ -14,8 +14,8 @@ before_script:
     - chmod +x ./kubectl
     - sudo mv ./kubectl /usr/local/bin/kubectl
     - kubectl version --client
-    - openssl aes-256-cbc -K $encrypted_40c75d714fd1_key -iv $encrypted_40c75d714fd1_iv -in ./k8s/aws/udagram-dev-kubeconfig.enc -out ./k8s/aws/udagram-dev-kubeconfig -d
-    - export KUBECONFIG=./k8s/aws/udagram-dev-kubeconfig
+    - openssl aes-256-cbc -K $encrypted_1364dc9133ff_key -iv $encrypted_1364dc9133ff_iv -in ./k8s/aws/udagram-kubeconfig.enc -out ./k8s/aws/udagram-kubeconfig -d
+    - export KUBECONFIG=./k8s/aws/udagram-kubeconfig
 
 script:
     - docker-compose -f docker-compose-build.yaml build --parallel
