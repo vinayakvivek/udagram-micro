@@ -19,10 +19,13 @@ before_script:
 
 script:
     # - docker-compose -f docker-compose-build.yaml build --parallel
-    - cat $KUBECONFIG
+    - kubectl rollout restart deployment/backend-user
+    - kubectl rollout restart deployment/backend-feed
+    - kubectl rollout restart deployment/frontend
+    - kubectl rollout restart deployment/reverseproxy
 
-deploy:
-    provider: script
-    script: bash deploy.sh
-    on:
-        branch: travis
+# deploy:
+#     provider: script
+#     script: bash deploy.sh
+#     on:
+#         branch: travis
