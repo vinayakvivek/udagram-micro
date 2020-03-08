@@ -14,9 +14,13 @@ before_script:
     # - chmod +x ./kubectl
     # - sudo mv ./kubectl /usr/local/bin/kubectl
     # - kubectl version --client
+    - openssl aes-256-cbc -K encrypted_40c75d714fd1_key -iv encrypted_40c75d714fd1_iv -in udagram-dev-kubeconfig.enc -out udagram-dev-kubeconfig -d
+    - export KUBECONFIG=./udagram-dev-kubeconfig
 
 script:
-    - docker-compose -f docker-compose-build.yaml build --parallel
+    # - docker-compose -f docker-compose-build.yaml build --parallel
+    - echo $KUBECONFIG
+    - cat $KUBECONFIG
 
 deploy:
     provider: script
