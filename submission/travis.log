@@ -1,14 +1,14 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: bb055c01-80d9-4531-8041-1cec257339d2@1.worker-com-6cf44f8696-rlv4d.gce-production-2
+hostname: 5a5051bf-18c4-45b5-ac63-41a4e067d3bb@1.worker-com-755dc776cf-njmg9.gce-production-3
 version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
-instance: travis-job-a65e1f70-74f9-4499-9918-fc0152540e2a travis-ci-stevonnie-xenial-1553530512-f909ac5 (via amqp)
-startup: 6.532650525s
-travis_fold:end:worker_info[0Ktravis_time:start:18428d3f[0Ktravis_time:end:18428d3f:start=1583648599302560698,finish=1583648599420030903,duration=117470205,event=no_world_writable_dirs[0Ktravis_time:start:01a73648[0Ktravis_time:end:01a73648:start=1583648599422569763,finish=1583648599425399574,duration=2829811,event=setup_filter[0Ktravis_time:start:04f0f61e[0Ktravis_time:end:04f0f61e:start=1583648599430503585,finish=1583648599438105372,duration=7601787,event=agent[0Ktravis_time:start:054bc436[0Ktravis_time:end:054bc436:start=1583648599440480135,finish=1583648599442337359,duration=1857224,event=check_unsupported[0Ktravis_time:start:0205dee0[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-4dd1a0c3-cded-4abf-9597-053d09c1ee61 travis-ci-stevonnie-xenial-1553530512-f909ac5 (via amqp)
+startup: 6.127677193s
+travis_fold:end:worker_info[0Ktravis_time:start:00b6ccc0[0Ktravis_time:end:00b6ccc0:start=1583654673215064253,finish=1583654673322996949,duration=107932696,event=no_world_writable_dirs[0Ktravis_time:start:01ddf8a1[0Ktravis_time:end:01ddf8a1:start=1583654673325336303,finish=1583654673327830734,duration=2494431,event=setup_filter[0Ktravis_time:start:06cc6870[0Ktravis_time:end:06cc6870:start=1583654673331510387,finish=1583654673338368296,duration=6857909,event=agent[0Ktravis_time:start:04d9dfc4[0Ktravis_time:end:04d9dfc4:start=1583654673340655925,finish=1583654673342563191,duration=1907266,event=check_unsupported[0Ktravis_time:start:06ca2820[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: shell
 Build group: stable
 Build dist: xenial
-Build id: 152304089
-Job id: 295713322
+Build id: 152306671
+Job id: 295718930
 Runtime kernel version: 4.15.0-1028-gcp
 travis-build version: 48f02a39a
 [34m[1mBuild image provisioning date and time[0m
@@ -108,121 +108,121 @@ rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://r
 [34m[1mdefault ruby version[0m
 ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
 travis_fold:end:system_info[0K
-travis_time:end:0205dee0:start=1583648599444758328,finish=1583648599455448865,duration=10690537,event=show_system_info[0Ktravis_time:start:0dc853f4[0Ktravis_time:end:0dc853f4:start=1583648599459122855,finish=1583648599479477114,duration=20354259,event=rm_riak_source[0Ktravis_time:start:01147e26[0Ktravis_time:end:01147e26:start=1583648599484415953,finish=1583648599499959136,duration=15543183,event=fix_rwky_redis[0Ktravis_time:start:05463a30[0Ktravis_time:end:05463a30:start=1583648599505417819,finish=1583648599795490568,duration=290072749,event=wait_for_network[0Ktravis_time:start:0c43c5b3[0Ktravis_time:end:0c43c5b3:start=1583648599799891702,finish=1583648599969529584,duration=169637882,event=update_apt_keys[0Ktravis_time:start:30e337a0[0Ktravis_time:end:30e337a0:start=1583648599974245735,finish=1583648600021535487,duration=47289752,event=fix_hhvm_source[0Ktravis_time:start:04f63413[0Ktravis_time:end:04f63413:start=1583648600025519381,finish=1583648600028016481,duration=2497100,event=update_mongo_arch[0Ktravis_time:start:0015bf76[0Ktravis_time:end:0015bf76:start=1583648600034156767,finish=1583648600072305026,duration=38148259,event=fix_sudo_enabled_trusty[0Ktravis_time:start:06f7c1ea[0Ktravis_time:end:06f7c1ea:start=1583648600078446744,finish=1583648600081048652,duration=2601908,event=update_glibc[0Ktravis_time:start:0191d510[0Ktravis_time:end:0191d510:start=1583648600086708126,finish=1583648600093802762,duration=7094636,event=clean_up_path[0Ktravis_time:start:0ffe4d2c[0Ktravis_time:end:0ffe4d2c:start=1583648600097380295,finish=1583648600104277634,duration=6897339,event=fix_resolv_conf[0Ktravis_time:start:111dd8a1[0Ktravis_time:end:111dd8a1:start=1583648600107465216,finish=1583648600115439043,duration=7973827,event=fix_etc_hosts[0Ktravis_time:start:11b808be[0Ktravis_time:end:11b808be:start=1583648600118834164,finish=1583648600127866516,duration=9032352,event=fix_mvn_settings_xml[0Ktravis_time:start:16036610[0Ktravis_time:end:16036610:start=1583648600131241957,finish=1583648600139668388,duration=8426431,event=no_ipv6_localhost[0Ktravis_time:start:0e13bb28[0Ktravis_time:end:0e13bb28:start=1583648600143258812,finish=1583648600145438584,duration=2179772,event=fix_etc_mavenrc[0Ktravis_time:start:24d98120[0Ktravis_time:end:24d98120:start=1583648600151559052,finish=1583648600155059258,duration=3500206,event=fix_wwdr_certificate[0Ktravis_time:start:13a5d02c[0Ktravis_time:end:13a5d02c:start=1583648600161226271,finish=1583648600182880272,duration=21654001,event=put_localhost_first[0Ktravis_time:start:15e3dbbb[0Ktravis_time:end:15e3dbbb:start=1583648600189652891,finish=1583648600193281959,duration=3629068,event=home_paths[0Ktravis_time:start:29ae8adf[0Ktravis_time:end:29ae8adf:start=1583648600198195877,finish=1583648600208633479,duration=10437602,event=disable_initramfs[0Ktravis_time:start:0acc64fc[0Ktravis_time:end:0acc64fc:start=1583648600213929084,finish=1583648600558608697,duration=344679613,event=disable_ssh_roaming[0Ktravis_time:start:01318dae[0Ktravis_time:end:01318dae:start=1583648600563157216,finish=1583648600566388226,duration=3231010,event=debug_tools[0Ktravis_time:start:08943b22[0Ktravis_time:end:08943b22:start=1583648600573638400,finish=1583648600577575642,duration=3937242,event=uninstall_oclint[0Ktravis_time:start:0b1500a6[0Ktravis_time:end:0b1500a6:start=1583648600584886221,finish=1583648600588464549,duration=3578328,event=rvm_use[0Ktravis_time:start:0f36eef6[0Ktravis_time:end:0f36eef6:start=1583648600595334954,finish=1583648600603376286,duration=8041332,event=rm_etc_boto_cfg[0Ktravis_time:start:099f8dfc[0Ktravis_time:end:099f8dfc:start=1583648600610393036,finish=1583648600613821248,duration=3428212,event=rm_oraclejdk8_symlink[0Ktravis_time:start:056048fc[0Ktravis_time:end:056048fc:start=1583648600620128487,finish=1583648600719090277,duration=98961790,event=enable_i386[0Ktravis_time:start:022e3864[0Ktravis_time:end:022e3864:start=1583648600723229239,finish=1583648600727178189,duration=3948950,event=update_rubygems[0Ktravis_time:start:1295f283[0Ktravis_time:end:1295f283:start=1583648600734077222,finish=1583648600746895757,duration=12818535,event=ensure_path_components[0Ktravis_time:start:08a49360[0Ktravis_time:end:08a49360:start=1583648600753612917,finish=1583648600756677665,duration=3064748,event=redefine_curl[0Ktravis_time:start:0914a09c[0Ktravis_time:end:0914a09c:start=1583648600763929696,finish=1583648600844933973,duration=81004277,event=nonblock_pipe[0Ktravis_time:start:033a3fc8[0Ktravis_time:end:033a3fc8:start=1583648600848968635,finish=1583648606880312299,duration=6031343664,event=apt_get_update[0Ktravis_time:start:0cbb17b4[0Ktravis_time:end:0cbb17b4:start=1583648606885135625,finish=1583648606887388902,duration=2253277,event=deprecate_xcode_64[0Ktravis_time:start:26e58436[0Ktravis_time:end:26e58436:start=1583648606892218758,finish=1583648609275333158,duration=2383114400,event=update_heroku[0Ktravis_time:start:0cca8a44[0Ktravis_time:end:0cca8a44:start=1583648609281081418,finish=1583648609283271027,duration=2189609,event=shell_session_update[0Ktravis_time:start:1444803c[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:1444803c:start=1583648609287116495,finish=1583648611489724484,duration=2202607989,event=set_docker_mtu[0Ktravis_time:start:0ac25a3f[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:0ac25a3f:start=1583648611494760820,finish=1583648611552572726,duration=57811906,event=resolvconf[0Ktravis_time:start:03fae5b8[0Ktravis_time:end:03fae5b8:start=1583648611557974241,finish=1583648611694821763,duration=136847522,event=maven_central_mirror[0Ktravis_time:start:07f55144[0Ktravis_time:end:07f55144:start=1583648611700739707,finish=1583648611790845995,duration=90106288,event=maven_https[0Ktravis_time:start:13798638[0Ktravis_fold:start:services[0Ktravis_time:start:24c1c5f0[0K$ sudo systemctl start docker
-travis_time:end:24c1c5f0:start=1583648611799219987,finish=1583648611811976136,duration=12756149,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:24c1c5f0:start=1583648611799219987,finish=1583648614817393046,duration=3018173059,event=services[0Ktravis_time:start:02cf3544[0Ktravis_time:end:02cf3544:start=1583648614820730348,finish=1583648614822891254,duration=2160906,event=fix_ps4[0Ktravis_time:start:19bb1bbe[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:0631528e[0K$ git clone --depth=50 --branch=master https://github.com/vinayakvivek/udagram-micro.git vinayakvivek/udagram-micro
+travis_time:end:06ca2820:start=1583654673344838628,finish=1583654673349459952,duration=4621324,event=show_system_info[0Ktravis_time:start:0b65204c[0Ktravis_time:end:0b65204c:start=1583654673351819845,finish=1583654673373897784,duration=22077939,event=rm_riak_source[0Ktravis_time:start:0682581f[0Ktravis_time:end:0682581f:start=1583654673386770321,finish=1583654673405316173,duration=18545852,event=fix_rwky_redis[0Ktravis_time:start:13b7f986[0Ktravis_time:end:13b7f986:start=1583654673414642814,finish=1583654673712403658,duration=297760844,event=wait_for_network[0Ktravis_time:start:1c79ade2[0Ktravis_time:end:1c79ade2:start=1583654673716321840,finish=1583654673867238904,duration=150917064,event=update_apt_keys[0Ktravis_time:start:1ba69208[0Ktravis_time:end:1ba69208:start=1583654673870948396,finish=1583654673918622811,duration=47674415,event=fix_hhvm_source[0Ktravis_time:start:1a79c60d[0Ktravis_time:end:1a79c60d:start=1583654673922783819,finish=1583654673925748184,duration=2964365,event=update_mongo_arch[0Ktravis_time:start:21f439f6[0Ktravis_time:end:21f439f6:start=1583654673929651500,finish=1583654673966950470,duration=37298970,event=fix_sudo_enabled_trusty[0Ktravis_time:start:378cf96c[0Ktravis_time:end:378cf96c:start=1583654673971099560,finish=1583654673973696280,duration=2596720,event=update_glibc[0Ktravis_time:start:0a5979e0[0Ktravis_time:end:0a5979e0:start=1583654673976783262,finish=1583654673983799146,duration=7015884,event=clean_up_path[0Ktravis_time:start:0d223d75[0Ktravis_time:end:0d223d75:start=1583654673987377776,finish=1583654673994348541,duration=6970765,event=fix_resolv_conf[0Ktravis_time:start:11729506[0Ktravis_time:end:11729506:start=1583654673997902788,finish=1583654674005671787,duration=7768999,event=fix_etc_hosts[0Ktravis_time:start:171b6250[0Ktravis_time:end:171b6250:start=1583654674008746275,finish=1583654674016615379,duration=7869104,event=fix_mvn_settings_xml[0Ktravis_time:start:16d1cfd4[0Ktravis_time:end:16d1cfd4:start=1583654674019763276,finish=1583654674027837087,duration=8073811,event=no_ipv6_localhost[0Ktravis_time:start:08ece438[0Ktravis_time:end:08ece438:start=1583654674031707776,finish=1583654674034183152,duration=2475376,event=fix_etc_mavenrc[0Ktravis_time:start:001223a6[0Ktravis_time:end:001223a6:start=1583654674037248591,finish=1583654674040301148,duration=3052557,event=fix_wwdr_certificate[0Ktravis_time:start:088a6bbf[0Ktravis_time:end:088a6bbf:start=1583654674043806922,finish=1583654674063983460,duration=20176538,event=put_localhost_first[0Ktravis_time:start:0ffb866c[0Ktravis_time:end:0ffb866c:start=1583654674067348735,finish=1583654674069906339,duration=2557604,event=home_paths[0Ktravis_time:start:1346c2c0[0Ktravis_time:end:1346c2c0:start=1583654674073284877,finish=1583654674083454632,duration=10169755,event=disable_initramfs[0Ktravis_time:start:0fe7b2b4[0Ktravis_time:end:0fe7b2b4:start=1583654674086721898,finish=1583654674362125708,duration=275403810,event=disable_ssh_roaming[0Ktravis_time:start:18c302a6[0Ktravis_time:end:18c302a6:start=1583654674366382319,finish=1583654674368439204,duration=2056885,event=debug_tools[0Ktravis_time:start:2c149bce[0Ktravis_time:end:2c149bce:start=1583654674371847963,finish=1583654674374769549,duration=2921586,event=uninstall_oclint[0Ktravis_time:start:20985d55[0Ktravis_time:end:20985d55:start=1583654674378519118,finish=1583654674381641290,duration=3122172,event=rvm_use[0Ktravis_time:start:2888e992[0Ktravis_time:end:2888e992:start=1583654674385366870,finish=1583654674392634834,duration=7267964,event=rm_etc_boto_cfg[0Ktravis_time:start:11450b30[0Ktravis_time:end:11450b30:start=1583654674396015262,finish=1583654674398443891,duration=2428629,event=rm_oraclejdk8_symlink[0Ktravis_time:start:14483a26[0Ktravis_time:end:14483a26:start=1583654674401476713,finish=1583654674502484240,duration=101007527,event=enable_i386[0Ktravis_time:start:01b24c18[0Ktravis_time:end:01b24c18:start=1583654674507304517,finish=1583654674510607354,duration=3302837,event=update_rubygems[0Ktravis_time:start:1f31c674[0Ktravis_time:end:1f31c674:start=1583654674514306196,finish=1583654674525028471,duration=10722275,event=ensure_path_components[0Ktravis_time:start:00f0ca48[0Ktravis_time:end:00f0ca48:start=1583654674529899416,finish=1583654674531882173,duration=1982757,event=redefine_curl[0Ktravis_time:start:20487c42[0Ktravis_time:end:20487c42:start=1583654674535206684,finish=1583654674587345269,duration=52138585,event=nonblock_pipe[0Ktravis_time:start:094ad5de[0Ktravis_time:end:094ad5de:start=1583654674591681977,finish=1583654680621508832,duration=6029826855,event=apt_get_update[0Ktravis_time:start:00cb643c[0Ktravis_time:end:00cb643c:start=1583654680625970775,finish=1583654680628162616,duration=2191841,event=deprecate_xcode_64[0Ktravis_time:start:142ba069[0Ktravis_time:end:142ba069:start=1583654680631946553,finish=1583654683070421670,duration=2438475117,event=update_heroku[0Ktravis_time:start:260e98c0[0Ktravis_time:end:260e98c0:start=1583654683074677578,finish=1583654683077053013,duration=2375435,event=shell_session_update[0Ktravis_time:start:00221430[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:00221430:start=1583654683081248817,finish=1583654685294135236,duration=2212886419,event=set_docker_mtu[0Ktravis_time:start:211d9529[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:211d9529:start=1583654685303336426,finish=1583654685360141270,duration=56804844,event=resolvconf[0Ktravis_time:start:39978ae0[0Ktravis_time:end:39978ae0:start=1583654685366845130,finish=1583654685490802330,duration=123957200,event=maven_central_mirror[0Ktravis_time:start:0177ede4[0Ktravis_time:end:0177ede4:start=1583654685495058311,finish=1583654685579893092,duration=84834781,event=maven_https[0Ktravis_time:start:00f66e88[0Ktravis_fold:start:services[0Ktravis_time:start:0b200314[0K$ sudo systemctl start docker
+travis_time:end:0b200314:start=1583654685587271983,finish=1583654685597038954,duration=9766971,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:0b200314:start=1583654685587271983,finish=1583654688601386385,duration=3014114402,event=services[0Ktravis_time:start:000b073c[0Ktravis_time:end:000b073c:start=1583654688604924857,finish=1583654688607052360,duration=2127503,event=fix_ps4[0Ktravis_time:start:1ab4c7e0[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:25c9747e[0K$ git clone --depth=50 --branch=master https://github.com/vinayakvivek/udagram-micro.git vinayakvivek/udagram-micro
 Cloning into 'vinayakvivek/udagram-micro'...
-travis_time:end:0631528e:start=1583648614831439032,finish=1583648615535056106,duration=703617074,event=checkout[0K$ cd vinayakvivek/udagram-micro
-$ git checkout -qf 58b970d882da7dc0c6fcff5d779e509fec539621
+travis_time:end:25c9747e:start=1583654688613556925,finish=1583654689424993350,duration=811436425,event=checkout[0K$ cd vinayakvivek/udagram-micro
+$ git checkout -qf fdb811431d0ee7f78dddf2ef15453ac85f8765f8
 travis_fold:end:git.checkout[0K
-travis_time:end:0631528e:start=1583648614831439032,finish=1583648615622636534,duration=791197502,event=checkout[0Ktravis_time:start:12798e7c[0K
+travis_time:end:25c9747e:start=1583654688613556925,finish=1583654689527431248,duration=913874323,event=checkout[0Ktravis_time:start:0d7bf2c6[0K
 [33;1mSetting environment variables from repository settings[0m
 $ export DOCKER_USERNAME=vinayakvivekk
 $ export DOCKER_PASSWORD=[secure]
-$ export encrypted_40c75d714fd1_key=[secure]
-$ export encrypted_40c75d714fd1_iv=[secure]
+$ export encrypted_1364dc9133ff_key=[secure]
+$ export encrypted_1364dc9133ff_iv=[secure]
 
 [33;1mSetting environment variables from .travis.yml[0m
 $ export DOCKER_COMPOSE_VERSION=1.23.2
 
-travis_time:end:12798e7c:start=1583648615626574442,finish=1583648615635059980,duration=8485538,event=env[0K$ bash -c 'echo $BASH_VERSION'
+travis_time:end:0d7bf2c6:start=1583654689530957273,finish=1583654689538875587,duration=7918314,event=env[0K$ bash -c 'echo $BASH_VERSION'
 4.3.48(1)-release
 
-travis_fold:start:before_script.1[0Ktravis_time:start:3c4274d4[0K$ docker -v && docker-compose -v
+travis_fold:start:before_script.1[0Ktravis_time:start:0b20cb54[0K$ docker -v && docker-compose -v
 Docker version 18.06.0-ce, build 0ffa825
 docker-compose version 1.23.1, build b02f1306
-travis_time:end:3c4274d4:start=1583648615640793634,finish=1583648616291720212,duration=650926578,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:0a8c1680[0K$ sudo rm /usr/local/bin/docker-compose
-travis_time:end:0a8c1680:start=1583648616295840106,finish=1583648616304915135,duration=9075029,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:146c3738[0K$ sudo curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+travis_time:end:0b20cb54:start=1583654689544368847,finish=1583654690135895837,duration=591526990,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:0d7c76de[0K$ sudo rm /usr/local/bin/docker-compose
+travis_time:end:0d7c76de:start=1583654690141824476,finish=1583654690150286317,duration=8461841,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:086a1574[0K$ sudo curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   617  100   617    0     0   2217      0 --:--:-- --:--:-- --:--:--  2219
-100 11.2M  100 11.2M    0     0  20.8M      0 --:--:-- --:--:-- --:--:-- 20.8M
-travis_time:end:146c3738:start=1583648616308894054,finish=1583648616879612299,duration=570718245,event=before_script[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:18c6b145[0K$ sudo chmod +x /usr/local/bin/docker-compose
-travis_time:end:18c6b145:start=1583648616886840910,finish=1583648616894717047,duration=7876137,event=before_script[0Ktravis_fold:end:before_script.4[0Ktravis_fold:start:before_script.5[0Ktravis_time:start:06ac879a[0K$ curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
-travis_time:end:06ac879a:start=1583648616899401179,finish=1583648617383152827,duration=483751648,event=before_script[0Ktravis_fold:end:before_script.5[0Ktravis_fold:start:before_script.6[0Ktravis_time:start:142bb330[0K$ chmod +x ./kubectl
-travis_time:end:142bb330:start=1583648617388563256,finish=1583648617391531164,duration=2967908,event=before_script[0Ktravis_fold:end:before_script.6[0Ktravis_fold:start:before_script.7[0Ktravis_time:start:0256839c[0K$ sudo mv ./kubectl /usr/local/bin/kubectl
-travis_time:end:0256839c:start=1583648617396518736,finish=1583648617403774820,duration=7256084,event=before_script[0Ktravis_fold:end:before_script.7[0Ktravis_fold:start:before_script.8[0Ktravis_time:start:04c01073[0K$ kubectl version --client
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   617  100   617    0     0   3914      0 --:--:-- --:--:-- --:--:--  3905
+100 11.2M  100 11.2M    0     0  22.6M      0 --:--:-- --:--:-- --:--:-- 22.6M
+travis_time:end:086a1574:start=1583654690154670285,finish=1583654690679792236,duration=525121951,event=before_script[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:02356836[0K$ sudo chmod +x /usr/local/bin/docker-compose
+travis_time:end:02356836:start=1583654690685405101,finish=1583654690693245303,duration=7840202,event=before_script[0Ktravis_fold:end:before_script.4[0Ktravis_fold:start:before_script.5[0Ktravis_time:start:31cf3d0d[0K$ curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+travis_time:end:31cf3d0d:start=1583654690698345149,finish=1583654691184855491,duration=486510342,event=before_script[0Ktravis_fold:end:before_script.5[0Ktravis_fold:start:before_script.6[0Ktravis_time:start:20c7468a[0K$ chmod +x ./kubectl
+travis_time:end:20c7468a:start=1583654691190245025,finish=1583654691193165699,duration=2920674,event=before_script[0Ktravis_fold:end:before_script.6[0Ktravis_fold:start:before_script.7[0Ktravis_time:start:0920278c[0K$ sudo mv ./kubectl /usr/local/bin/kubectl
+travis_time:end:0920278c:start=1583654691197240962,finish=1583654691204369556,duration=7128594,event=before_script[0Ktravis_fold:end:before_script.7[0Ktravis_fold:start:before_script.8[0Ktravis_time:start:03caf000[0K$ kubectl version --client
 Client Version: version.Info{Major:"1", Minor:"17", GitVersion:"v1.17.3", GitCommit:"06ad960bfd03b39c8310aaf92d1e7c12ce618213", GitTreeState:"clean", BuildDate:"2020-02-11T18:14:22Z", GoVersion:"go1.13.6", Compiler:"gc", Platform:"linux/amd64"}
-travis_time:end:04c01073:start=1583648617408958800,finish=1583648617457070092,duration=48111292,event=before_script[0Ktravis_fold:end:before_script.8[0Ktravis_fold:start:before_script.9[0Ktravis_time:start:03c30a08[0K$ openssl aes-256-cbc -K $encrypted_40c75d714fd1_key -iv $encrypted_40c75d714fd1_iv -in ./k8s/aws/udagram-dev-kubeconfig.enc -out ./k8s/aws/udagram-dev-kubeconfig -d
-travis_time:end:03c30a08:start=1583648617462086046,finish=1583648617478475446,duration=16389400,event=before_script[0Ktravis_fold:end:before_script.9[0Ktravis_fold:start:before_script.10[0Ktravis_time:start:1401da83[0K$ export KUBECONFIG=./k8s/aws/udagram-dev-kubeconfig
-travis_time:end:1401da83:start=1583648617485656550,finish=1583648617488965435,duration=3308885,event=before_script[0Ktravis_fold:end:before_script.10[0Ktravis_time:start:24ce4ffc[0K$ docker-compose -f docker-compose-build.yaml build --parallel
+travis_time:end:03caf000:start=1583654691208304032,finish=1583654691254950376,duration=46646344,event=before_script[0Ktravis_fold:end:before_script.8[0Ktravis_fold:start:before_script.9[0Ktravis_time:start:0b548bba[0K$ openssl aes-256-cbc -K $encrypted_1364dc9133ff_key -iv $encrypted_1364dc9133ff_iv -in ./k8s/aws/udagram-kubeconfig.enc -out ./k8s/aws/udagram-kubeconfig -d
+travis_time:end:0b548bba:start=1583654691258876937,finish=1583654691271808288,duration=12931351,event=before_script[0Ktravis_fold:end:before_script.9[0Ktravis_fold:start:before_script.10[0Ktravis_time:start:39287b9b[0K$ export KUBECONFIG=./k8s/aws/udagram-kubeconfig
+travis_time:end:39287b9b:start=1583654691275963952,finish=1583654691278133568,duration=2169616,event=before_script[0Ktravis_fold:end:before_script.10[0Ktravis_time:start:28d7c1b3[0K$ docker-compose -f docker-compose-build.yaml build --parallel
 Building reverseproxy ... 
 Building backend_user ... 
 Building backend_feed ... 
 Building frontend     ... 
-Building backend_user
 Building backend_feed
 Building reverseproxy
+Building backend_user
 Building frontend
 Step 1/2 : FROM nginx:alpine
 Step 1/8 : FROM beevelop/ionic AS ionic
 Step 1/7 : FROM node:12
 Step 1/7 : FROM node:12
 alpine: Pulling from library/nginx
-12: Pulling from library/node
 latest: Pulling from beevelop/ionic
+12: Pulling from library/node
 12: Pulling from library/node
 Digest: sha256:ef2b6cd6fdfc6d0502b77710b27f7928a5e29ab5cfae398824e5dcfbbb7a75e2
 Status: Downloaded newer image for nginx:alpine
  ---> 377c0837328f
 Step 2/2 : COPY nginx.conf /etc/nginx/nginx.conf
- ---> cc39dbe9e8be
-Successfully built cc39dbe9e8be
+ ---> db4e7de595a3
+Successfully built db4e7de595a3
 Successfully tagged vinayakvivekk/udacity-reverse-proxy:latest
-[4A[2KBuilding reverseproxy ... [32mdone[0m[4BDigest: sha256:facc1cbde6e5aa3255092b1a1417451953c80bd31ab5a4403f8bcd90b90a8407
-Digest: sha256:facc1cbde6e5aa3255092b1a1417451953c80bd31ab5a4403f8bcd90b90a8407
-Status: Downloaded newer image for node:12
-Status: Downloaded newer image for node:12
- ---> d834cbcf2402
-Step 2/7 : WORKDIR /usr/src/app
- ---> d834cbcf2402
-Step 2/7 : WORKDIR /usr/src/app
-Digest: sha256:15cca2ae66db1ad072cdb30b8692c17e00f925784df45db89c6511a45bbe42ea
+[4A[2KBuilding reverseproxy ... [32mdone[0m[4BDigest: sha256:15cca2ae66db1ad072cdb30b8692c17e00f925784df45db89c6511a45bbe42ea
 Status: Downloaded newer image for beevelop/ionic:latest
  ---> 4ef3153b09a1
 Step 2/8 : WORKDIR /usr/src/app
- ---> Running in fece000b8eaa
- ---> Running in 86ae88bdbf39
- ---> Running in 0ef433a19f8d
-Removing intermediate container fece000b8eaa
- ---> 30db599a438f
-Step 3/7 : COPY package*.json ./
-Removing intermediate container 86ae88bdbf39
- ---> a7b5080bcb6c
-Step 3/7 : COPY package*.json ./
-Removing intermediate container 0ef433a19f8d
- ---> 1f0dc666bf32
+Digest: sha256:facc1cbde6e5aa3255092b1a1417451953c80bd31ab5a4403f8bcd90b90a8407
+Digest: sha256:facc1cbde6e5aa3255092b1a1417451953c80bd31ab5a4403f8bcd90b90a8407
+Status: Image is up to date for node:12
+ ---> d834cbcf2402
+Step 2/7 : WORKDIR /usr/src/app
+Status: Downloaded newer image for node:12
+ ---> d834cbcf2402
+Step 2/7 : WORKDIR /usr/src/app
+ ---> Running in 53a701b4116d
+ ---> Running in 332ea1d0fdd1
+ ---> Running in bd71e5c73bf0
+Removing intermediate container 53a701b4116d
+ ---> 99b7a8b6c7ea
 Step 3/8 : COPY package*.json ./
- ---> 785c68b3995b
-Step 4/7 : RUN npm ci
- ---> d1ba6f917e68
-Step 4/7 : RUN npm ci
- ---> 8cabec9d197d
+Removing intermediate container 332ea1d0fdd1
+ ---> 45ccf00a8415
+Step 3/7 : COPY package*.json ./
+Removing intermediate container bd71e5c73bf0
+ ---> 5c56ceea90f7
+Step 3/7 : COPY package*.json ./
+ ---> bd8af89f99ef
 Step 4/8 : RUN npm ci
- ---> Running in 809a7d548c35
- ---> Running in 4de21c4ecbb2
- ---> Running in 812ec3f31474
+ ---> 1d12794c5fba
+Step 4/7 : RUN npm ci
+ ---> 967a4fd11a5c
+Step 4/7 : RUN npm ci
+ ---> Running in dbe576991b0b
+ ---> Running in 0a737e28b9a9
+ ---> Running in 58b704fa6216
 
 > bcrypt@3.0.6 install /usr/src/app/node_modules/bcrypt
 > node-pre-gyp install --fallback-to-build
 
 [91mnode-pre-gyp[0m[91m [0m[91mWARN[0m[91m [0m[91mUsing needle for node-pre-gyp https download[0m[91m 
+[0m[91mnode-pre-gyp[0m[91m WARN Tried to download(404): https://github.com/kelektiv/node.bcrypt.js/releases/download/v3.0.6/bcrypt_lib-v3.0.6-node-v72-linux-x64-glibc.tar.gz 
+node-pre-gyp WARN Pre-built binaries not found for bcrypt@3.0.6 and node@12.16.1 (node-v72 ABI, glibc) (falling back to source compile with node-gyp)[0m[91m 
 [0m
 > bcrypt@3.0.6 install /usr/src/app/node_modules/bcrypt
 > node-pre-gyp install --fallback-to-build
 
-[91mnode-pre-gyp[0m[91m [0m[91mWARN[0m[91m [0m[91mTried to download(404): https://github.com/kelektiv/node.bcrypt.js/releases/download/v3.0.6/bcrypt_lib-v3.0.6-node-v72-linux-x64-glibc.tar.gz[0m[91m 
-[0m[91mnode-pre-gyp[0m[91m WARN Pre-built binaries not found for bcrypt@3.0.6 and node@12.16.1 (node-v72 ABI, glibc) (falling back to source compile with node-gyp) 
-[0m[91mnode-pre-gyp[0m[91m WARN Using needle for node-pre-gyp https download 
+[91mnode-pre-gyp[0m[91m [0m[91mWARN[0m[91m [0m[91mUsing needle for node-pre-gyp https download[0m[91m 
 [0m[91mnode-pre-gyp[0m[91m [0m[91mWARN[0m[91m [0m[91mTried to download(404): https://github.com/kelektiv/node.bcrypt.js/releases/download/v3.0.6/bcrypt_lib-v3.0.6-node-v72-linux-x64-glibc.tar.gz[0m[91m 
-[0m[91mnode-pre-gyp[0m[91m [0m[91mWARN Pre-built binaries not found for bcrypt@3.0.6 and node@12.16.1 (node-v72 ABI, glibc) (falling back to source compile with node-gyp) 
+[0m[91mnode-pre-gyp[0m[91m WARN Pre-built binaries not found for bcrypt@3.0.6 and node@12.16.1 (node-v72 ABI, glibc) (falling back to source compile with node-gyp) 
 [0mmake: Entering directory '/usr/src/app/node_modules/bcrypt/build'
   CXX(target) Release/obj.target/bcrypt_lib/src/blowfish.o
+  CXX(target) Release/obj.target/bcrypt_lib/src/bcrypt.o
 make: Entering directory '/usr/src/app/node_modules/bcrypt/build'
   CXX(target) Release/obj.target/bcrypt_lib/src/blowfish.o
-  CXX(target) Release/obj.target/bcrypt_lib/src/bcrypt.o
-  CXX(target) Release/obj.target/bcrypt_lib/src/bcrypt.o
   CXX(target) Release/obj.target/bcrypt_lib/src/bcrypt_node.o
+  CXX(target) Release/obj.target/bcrypt_lib/src/bcrypt.o
   CXX(target) Release/obj.target/bcrypt_lib/src/bcrypt_node.o
   SOLINK_MODULE(target) Release/obj.target/bcrypt_lib.node
   COPY Release/bcrypt_lib.node
@@ -230,12 +230,12 @@ make: Entering directory '/usr/src/app/node_modules/bcrypt/build'
   TOUCH Release/obj.target/action_after_build.stamp
 make: Leaving directory '/usr/src/app/node_modules/bcrypt/build'
   SOLINK_MODULE(target) Release/obj.target/bcrypt_lib.node
-added 416 packages in 17.766s
   COPY Release/bcrypt_lib.node
   COPY /usr/src/app/node_modules/bcrypt/lib/binding/bcrypt_lib.node
   TOUCH Release/obj.target/action_after_build.stamp
+added 416 packages in 17.556s
 make: Leaving directory '/usr/src/app/node_modules/bcrypt/build'
-added 416 packages in 17.813s
+added 416 packages in 17.931s
 
 > fsevents@1.2.9 install /usr/src/app/node_modules/fsevents
 > node install
@@ -266,47 +266,47 @@ Binary saved to /usr/src/app/node_modules/node-sass/vendor/linux-x64-64/binding.
 Binary found at /usr/src/app/node_modules/node-sass/vendor/linux-x64-64/binding.node
 Testing binary
 Binary is fine
-added 1164 packages in 27.857s
-Removing intermediate container 809a7d548c35
- ---> c939c08689b7
+added 1164 packages in 28.683s
+Removing intermediate container 0a737e28b9a9
+ ---> 9f1c218fb616
 Step 5/7 : COPY . .
-Removing intermediate container 4de21c4ecbb2
- ---> 229fb5c651c8
+Removing intermediate container 58b704fa6216
+ ---> 0ba2758049a8
 Step 5/7 : COPY . .
- ---> bab0e4c9ef48
+ ---> 5fd9ad7dde00
 Step 6/7 : EXPOSE 8080
- ---> 91a43e04f51c
+ ---> 46a03eeb1403
 Step 6/7 : EXPOSE 8080
- ---> Running in 8cc9ae5be8ad
- ---> Running in 027003e1e695
-Removing intermediate container 812ec3f31474
- ---> 152037ae884d
+ ---> Running in 93fd05d78e3d
+ ---> Running in f6e5cc4b074c
+Removing intermediate container dbe576991b0b
+ ---> 0bb89b9a4f05
 Step 5/8 : COPY . .
-Removing intermediate container 8cc9ae5be8ad
- ---> 63e7d46c971c
+Removing intermediate container 93fd05d78e3d
+ ---> 31e109e386b6
 Step 7/7 : CMD [ "npm", "run", "dev" ]
-Removing intermediate container 027003e1e695
- ---> 1f778d1c9e8a
+ ---> Running in 26abd82b26fd
+Removing intermediate container f6e5cc4b074c
+ ---> e819b6232ed7
 Step 7/7 : CMD [ "npm", "run", "dev" ]
- ---> 6384af8477ca
+ ---> 567624bf2e80
 Step 6/8 : RUN ionic build
- ---> Running in 6f81bc502b03
- ---> Running in 4c82e682ba84
- ---> Running in 7d664c5884f7
-Removing intermediate container 6f81bc502b03
- ---> 2485c13dbc99
-Successfully built 2485c13dbc99
-Removing intermediate container 4c82e682ba84
- ---> 9d77bd184b99
-Successfully built 9d77bd184b99
+ ---> Running in be994f737c02
+ ---> Running in 58adff037b91
+Removing intermediate container 26abd82b26fd
+ ---> 6916392f7180
+Successfully built 6916392f7180
+Successfully tagged vinayakvivekk/udacity-feed-restapi:latest
+[2A[2KBuilding backend_feed ... [32mdone[0m[2BRemoving intermediate container be994f737c02
+ ---> 9b9a37026208
+Successfully built 9b9a37026208
 Successfully tagged vinayakvivekk/udacity-user-restapi:latest
-[3A[2KBuilding backend_user ... [32mdone[0m[3BSuccessfully tagged vinayakvivekk/udacity-feed-restapi:latest
-[2A[2KBuilding backend_feed ... [32mdone[0m[2B> ng run app:build
+[3A[2KBuilding backend_user ... [32mdone[0m[3B> ng run app:build
 [91mBrowserslist: caniuse-lite is outdated. Please run next command `npm update`
 [0m
-Date: 2020-03-08T06:26:53.061Z
+Date: 2020-03-08T08:08:07.454Z
 Hash: 3e9ea5a461d01d4feaf1
-Time: 15127ms
+Time: 15055ms
 chunk {0} 0.js, 0.js.map () 16.4 kB  [rendered]
 chunk {1} 1.js, 1.js.map () 12.9 kB  [rendered]
 chunk {2} 2.js, 2.js.map () 17.3 kB  [rendered]
@@ -488,28 +488,28 @@ chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 237 kB [initial] [r
 chunk {runtime} runtime.js, runtime.js.map (runtime) 8.79 kB [entry] [rendered]
 chunk {styles} styles.js, styles.js.map (styles) 86.4 kB [initial] [rendered]
 chunk {vendor} vendor.js, vendor.js.map (vendor) 4.14 MB [initial] [rendered]
-Removing intermediate container 7d664c5884f7
- ---> b520c2590c66
+Removing intermediate container 58adff037b91
+ ---> 0bc0e33bac05
 Step 7/8 : FROM nginx:alpine
  ---> 377c0837328f
 Step 8/8 : COPY --from=ionic  /usr/src/app/www /usr/share/nginx/html
- ---> 2ed459723111
-Successfully built 2ed459723111
+ ---> 93d9beaa7ebd
+Successfully built 93d9beaa7ebd
 Successfully tagged vinayakvivekk/udacity-frontend:latest
-[1A[2KBuilding frontend     ... [32mdone[0m[1Btravis_time:end:24ce4ffc:start=1583648617492752905,finish=1583648814771970110,duration=197279217205,event=script[0K[32;1mThe command "docker-compose -f docker-compose-build.yaml build --parallel" exited with 0.[0m
-travis_time:start:1107ced9[0K$ echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+[1A[2KBuilding frontend     ... [32mdone[0m[1Btravis_time:end:28d7c1b3:start=1583654691281680112,finish=1583654889135474352,duration=197853794240,event=script[0K[32;1mThe command "docker-compose -f docker-compose-build.yaml build --parallel" exited with 0.[0m
+travis_time:start:0ea102f8[0K$ echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 WARNING! Your password will be stored unencrypted in /home/travis/.docker/config.json.
 Configure a credential helper to remove this warning. See
 https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
 Login Succeeded
-travis_time:end:1107ced9:start=1583648814776138384,finish=1583648815067408828,duration=291270444,event=script[0K[32;1mThe command "echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin" exited with 0.[0m
-travis_time:start:08efd684[0K$ docker push $DOCKER_USERNAME/udacity-user-restapi
+travis_time:end:0ea102f8:start=1583654889139976556,finish=1583654889449000671,duration=309024115,event=script[0K[32;1mThe command "echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin" exited with 0.[0m
+travis_time:start:1f7a7fd9[0K$ docker push $DOCKER_USERNAME/udacity-user-restapi
 The push refers to repository [docker.io/vinayakvivekk/udacity-user-restapi]
-82664041985c: Preparing
-21af94a26dbf: Preparing
-3b30112caade: Preparing
-737cb13727f2: Preparing
+440c84760ba6: Preparing
+700b1640a77c: Preparing
+c01127d7ab97: Preparing
+5f1b85c88f0c: Preparing
 9639e14ebab8: Preparing
 df1a5de28ce6: Preparing
 5d0d307e8511: Preparing
@@ -520,13 +520,13 @@ d040e6423b7a: Preparing
 00adafc8e77b: Preparing
 2c995a2087c1: Preparing
 df1a5de28ce6: Waiting
-5d0d307e8511: Waiting
 236d3097407d: Waiting
 91daf9fc6311: Waiting
 162804eaaa1e: Waiting
 d040e6423b7a: Waiting
 00adafc8e77b: Waiting
 2c995a2087c1: Waiting
+5d0d307e8511: Waiting
 9639e14ebab8: Layer already exists
 df1a5de28ce6: Layer already exists
 5d0d307e8511: Layer already exists
@@ -534,20 +534,20 @@ df1a5de28ce6: Layer already exists
 91daf9fc6311: Layer already exists
 162804eaaa1e: Layer already exists
 d040e6423b7a: Layer already exists
+c01127d7ab97: Pushed
 00adafc8e77b: Layer already exists
-3b30112caade: Pushed
 2c995a2087c1: Layer already exists
-737cb13727f2: Pushed
-21af94a26dbf: Pushed
-82664041985c: Pushed
-latest: digest: sha256:58ab968c2db092eb30278fbd887bd5659e6b5dd517727f6e0cd2f9f82bc63618 size: 3054
-travis_time:end:08efd684:start=1583648815071776597,finish=1583648828129663850,duration=13057887253,event=script[0K[32;1mThe command "docker push $DOCKER_USERNAME/udacity-user-restapi" exited with 0.[0m
-travis_time:start:13cfc018[0K$ docker push $DOCKER_USERNAME/udacity-feed-restapi
+5f1b85c88f0c: Pushed
+440c84760ba6: Pushed
+700b1640a77c: Pushed
+latest: digest: sha256:7d9fad4542a484c036f299f2987789decd126bb2b799d7639e2b5f1920728664 size: 3054
+travis_time:end:1f7a7fd9:start=1583654889454660608,finish=1583654926341626144,duration=36886965536,event=script[0K[32;1mThe command "docker push $DOCKER_USERNAME/udacity-user-restapi" exited with 0.[0m
+travis_time:start:054687e2[0K$ docker push $DOCKER_USERNAME/udacity-feed-restapi
 The push refers to repository [docker.io/vinayakvivekk/udacity-feed-restapi]
-20d036ea9e68: Preparing
-c5aaa9b521a0: Preparing
-3378f9410728: Preparing
-737cb13727f2: Preparing
+619be3133a11: Preparing
+4060880c0404: Preparing
+cf29062ce6d6: Preparing
+5f1b85c88f0c: Preparing
 9639e14ebab8: Preparing
 df1a5de28ce6: Preparing
 5d0d307e8511: Preparing
@@ -567,51 +567,51 @@ d040e6423b7a: Waiting
 2c995a2087c1: Waiting
 9639e14ebab8: Layer already exists
 df1a5de28ce6: Layer already exists
-737cb13727f2: Mounted from vinayakvivekk/udacity-user-restapi
+5f1b85c88f0c: Mounted from vinayakvivekk/udacity-user-restapi
 5d0d307e8511: Layer already exists
 236d3097407d: Layer already exists
 91daf9fc6311: Layer already exists
-d040e6423b7a: Layer already exists
 162804eaaa1e: Layer already exists
-2c995a2087c1: Layer already exists
+d040e6423b7a: Layer already exists
 00adafc8e77b: Layer already exists
-20d036ea9e68: Pushed
-3378f9410728: Pushed
-c5aaa9b521a0: Pushed
-latest: digest: sha256:5688c51640af3df652b63b334dad6e6028d068f1332e78938a4088131893a465 size: 3054
-travis_time:end:13cfc018:start=1583648828138024821,finish=1583648841177214078,duration=13039189257,event=script[0K[32;1mThe command "docker push $DOCKER_USERNAME/udacity-feed-restapi" exited with 0.[0m
-travis_time:start:01058db0[0K$ docker push $DOCKER_USERNAME/udacity-frontend
+2c995a2087c1: Layer already exists
+619be3133a11: Pushed
+cf29062ce6d6: Pushed
+4060880c0404: Pushed
+latest: digest: sha256:fe5d2e4aad1cf92e757ab82692cfef0fb6a29fda3e6f3d4a562c9c7b47181b30 size: 3054
+travis_time:end:054687e2:start=1583654926346548434,finish=1583654937947227587,duration=11600679153,event=script[0K[32;1mThe command "docker push $DOCKER_USERNAME/udacity-feed-restapi" exited with 0.[0m
+travis_time:start:0b264d33[0K$ docker push $DOCKER_USERNAME/udacity-frontend
 The push refers to repository [docker.io/vinayakvivekk/udacity-frontend]
-aba9338b5d15: Preparing
+772d3d57b557: Preparing
 6f23cf4d16de: Preparing
 531743b7098c: Preparing
 531743b7098c: Layer already exists
 6f23cf4d16de: Layer already exists
-aba9338b5d15: Pushed
-latest: digest: sha256:ecd379a3d27270c3c658cca1cd5dea4e0d6a6c88e36e1e6bec947e1e7e3d2c18 size: 950
-travis_time:end:01058db0:start=1583648841185702703,finish=1583648849404198932,duration=8218496229,event=script[0K[32;1mThe command "docker push $DOCKER_USERNAME/udacity-frontend" exited with 0.[0m
-travis_time:start:1df9064c[0K$ docker push $DOCKER_USERNAME/udacity-reverse-proxy
+772d3d57b557: Pushed
+latest: digest: sha256:bca1cd8089777cfbd1984657b95e8b7219450646b6d4face1b8c398313233e3b size: 950
+travis_time:end:0b264d33:start=1583654937951542523,finish=1583654944257277247,duration=6305734724,event=script[0K[32;1mThe command "docker push $DOCKER_USERNAME/udacity-frontend" exited with 0.[0m
+travis_time:start:38225c28[0K$ docker push $DOCKER_USERNAME/udacity-reverse-proxy
 The push refers to repository [docker.io/vinayakvivekk/udacity-reverse-proxy]
-d2caafa854c1: Preparing
+333e30f6db2d: Preparing
 6f23cf4d16de: Preparing
 531743b7098c: Preparing
 531743b7098c: Layer already exists
 6f23cf4d16de: Layer already exists
-d2caafa854c1: Pushed
-latest: digest: sha256:e06d796d16f5232a979e3237e9e58d807b413ef4b1ff8ae93e885480212211e4 size: 946
-travis_time:end:1df9064c:start=1583648849408972117,finish=1583648853981213477,duration=4572241360,event=script[0K[32;1mThe command "docker push $DOCKER_USERNAME/udacity-reverse-proxy" exited with 0.[0m
-travis_time:start:00cb6121[0K$ kubectl rollout restart deployment/backend-user
+333e30f6db2d: Pushed
+latest: digest: sha256:744edb1b5aea3196a62ae253ab3707be9e83c14808d51f12fc6df8df4e5e865f size: 946
+travis_time:end:38225c28:start=1583654944262272602,finish=1583654948605357379,duration=4343084777,event=script[0K[32;1mThe command "docker push $DOCKER_USERNAME/udacity-reverse-proxy" exited with 0.[0m
+travis_time:start:149ed68c[0K$ kubectl rollout restart deployment/backend-user
 deployment.apps/backend-user restarted
-travis_time:end:00cb6121:start=1583648853990266133,finish=1583648854333414820,duration=343148687,event=script[0K[32;1mThe command "kubectl rollout restart deployment/backend-user" exited with 0.[0m
-travis_time:start:0ea768e7[0K$ kubectl rollout restart deployment/backend-feed
+travis_time:end:149ed68c:start=1583654948609964795,finish=1583654948934620168,duration=324655373,event=script[0K[32;1mThe command "kubectl rollout restart deployment/backend-user" exited with 0.[0m
+travis_time:start:15a355b6[0K$ kubectl rollout restart deployment/backend-feed
 deployment.apps/backend-feed restarted
-travis_time:end:0ea768e7:start=1583648854338505314,finish=1583648854492680932,duration=154175618,event=script[0K[32;1mThe command "kubectl rollout restart deployment/backend-feed" exited with 0.[0m
-travis_time:start:0653c0fd[0K$ kubectl rollout restart deployment/frontend
+travis_time:end:15a355b6:start=1583654948942396721,finish=1583654949094048590,duration=151651869,event=script[0K[32;1mThe command "kubectl rollout restart deployment/backend-feed" exited with 0.[0m
+travis_time:start:220d8f9e[0K$ kubectl rollout restart deployment/frontend
 deployment.apps/frontend restarted
-travis_time:end:0653c0fd:start=1583648854498521275,finish=1583648854650766224,duration=152244949,event=script[0K[32;1mThe command "kubectl rollout restart deployment/frontend" exited with 0.[0m
-travis_time:start:0570e9f0[0K$ kubectl rollout restart deployment/reverseproxy
+travis_time:end:220d8f9e:start=1583654949099223320,finish=1583654949251451977,duration=152228657,event=script[0K[32;1mThe command "kubectl rollout restart deployment/frontend" exited with 0.[0m
+travis_time:start:0214792d[0K$ kubectl rollout restart deployment/reverseproxy
 deployment.apps/reverseproxy restarted
-travis_time:end:0570e9f0:start=1583648854656210757,finish=1583648854800754868,duration=144544111,event=script[0K[32;1mThe command "kubectl rollout restart deployment/reverseproxy" exited with 0.[0m
+travis_time:end:0214792d:start=1583654949257082861,finish=1583654949401697422,duration=144614561,event=script[0K[32;1mThe command "kubectl rollout restart deployment/reverseproxy" exited with 0.[0m
 
 
 Done. Your build exited with 0.
