@@ -18,7 +18,8 @@ before_script:
     - export KUBECONFIG=./k8s/aws/udagram-dev-kubeconfig
 
 script:
-    - docker-compose -f docker-compose-build.yaml build --parallel
+    # - docker-compose -f docker-compose-build.yaml build --parallel
+    - cat $KUBECONFIG
 
 deploy:
     provider: script
