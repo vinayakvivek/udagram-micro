@@ -18,14 +18,13 @@ before_script:
     - export KUBECONFIG=./k8s/aws/udagram-dev-kubeconfig
 
 script:
-    # - docker-compose -f docker-compose-build.yaml build --parallel
+    - docker-compose -f docker-compose-build.yaml build --parallel
+    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+    - docker push $DOCKER_USERNAME/udacity-user-restapi
+    - docker push $DOCKER_USERNAME/udacity-feed-restapi
+    - docker push $DOCKER_USERNAME/udacity-frontend
+    - docker push $DOCKER_USERNAME/udacity-reverse-proxy
     - kubectl rollout restart deployment/backend-user
     - kubectl rollout restart deployment/backend-feed
     - kubectl rollout restart deployment/frontend
     - kubectl rollout restart deployment/reverseproxy
-
-# deploy:
-#     provider: script
-#     script: bash deploy.sh
-#     on:
-#         branch: travis
