@@ -5,7 +5,7 @@ services: docker
 env:
     - DOCKER_COMPOSE_VERSION=1.23.2
 
-before_install:
+before_script:
     - docker -v && docker-compose -v
     - sudo rm /usr/local/bin/docker-compose
     - sudo curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -15,7 +15,7 @@ before_install:
     # - sudo mv ./kubectl /usr/local/bin/kubectl
     # - kubectl version --client
 
-install:
+script:
     - docker-compose -f docker-compose-build.yaml build --parallel
 
 deploy:
